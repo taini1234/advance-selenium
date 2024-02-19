@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" >
+  <test thread-count="5" name="Test" parallel="true">
+    <classes>
+      <class name="DistributiveParrallel.To_launch_meesho"/>
+      <class name="DistributiveParrallel.Myntra"/>
+      <class name="DistributiveParrallel.To_launch_Apple"/>
+      <class name="DistributiveParrallel.AmazonLaunch"/>
+      <class name="DistributiveParrallel.SugerLanuch"/>
+      <class name="DistributiveParrallel.To_Launch_flip"/>
+      </classes>
+      </test>
+      <test thread-count="5" name="Test1">
+    <classes>
+      <class name="DistributiveParrallel.To_launch_maybelline"/>
+      <class name="DistributiveParrallel.MakemyTrip"/>
+      <class name="DistributiveParrallel.To_launch_loreal"/>
+      <class name="DistributiveParrallel.Facebbok"/>
+      <class name="DistributiveParrallel.Instagram"/>
+      <class name="DistributiveParrallel.To_Launch_demoweb"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

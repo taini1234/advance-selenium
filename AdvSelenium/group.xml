@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="true">
+	<test thread-count="5" name="Test">
+		<groups>
+			<run>
+				<exclude name="ecom"></exclude>
+			</run>
+		</groups>
+		<classes>
+			<class name="Group.To_launch_maybelline" />
+			<class name="Group.SugerLanuch" />
+			<class name="Group.AmazonLaunch" />
+			<class name="Group.Facebbok" />
+			<class name="Group.To_Launch_flip" />
+			<class name="Group.To_launch_loreal" />
+			<class name="Group.To_launch_meesho" />
+			<class name="Group.Instagram" />
+			<class name="Group.MakemyTrip" />
+			<class name="Group.To_launch_Apple" />
+			<class name="Group.Myntra" />
+			<class name="Group.To_Launch_demoweb" />
+		</classes>
+	</test> <!--
+	Test -->
+</suite> <!--
+Suite -->
